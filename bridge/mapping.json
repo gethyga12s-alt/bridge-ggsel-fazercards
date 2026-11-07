@@ -1,0 +1,31 @@
+{
+  "GGSEL_ID_12345": {
+    "family": "topups",
+    "category_id": "FAZER_CAT_ID",
+    "offer_id": "FAZER_OFFER_ID",
+    "field_key": "player_id",
+    "price_rub": 119.0,
+    "validate": true
+  },
+  "GGSEL_ID_67890": {
+    "family": "giftcards",
+    "category_id": "FAZER_CAT_ID",
+    "card_id": "FAZER_CARD_ID",
+    "price_rub": 1200.0
+  },
+  "GGSEL_ID_54321": {
+    "family": "gamekeys",
+    "game_id": "FAZER_GAME_ID",
+    "key_id": "FAZER_KEY_ID",
+    "price_rub": 999.0
+  },
+  "GGSEL_ID_98765": {
+    "family": "steam-gifts",
+    "app_id": 730,
+    "sub_id": 1,
+    "region": "RU",
+    "field_key": "invite_url",
+    "price_rub": 499.0
+  }
+}
+

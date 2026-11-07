@@ -1,0 +1,421 @@
+2026-11-07 12:25:35,214 INFO Мост запущен. Товаров в маппинге: 4, интервал опроса: 60 c
+2026-11-07 12:25:35,562 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 240, in seller_sells
+    raise DigisellerError(f"seller-sells: {data}")
+DigisellerError: seller-sells: {'retval': 10, 'retdesc': 'sign', 'total_rows': 0, 'pages': 0, 'page': 0, 'rows': []}
+2026-11-07 12:26:42,281 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 240, in seller_sells
+    raise DigisellerError(f"seller-sells: {data}")
+DigisellerError: seller-sells: {'retval': 10, 'retdesc': 'sign', 'total_rows': 0, 'pages': 0, 'page': 0, 'rows': []}
+2026-11-07 12:26:43,539 INFO Получен сигнал остановки, завершаюсь после текущего цикла
+2026-11-07 12:28:09,128 INFO Остановлено
+2026-11-07 12:28:51,000 INFO Мост запущен. Товаров в маппинге: 4, интервал опроса: 60 c
+2026-11-07 12:28:51,383 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 240, in seller_sells
+    raise DigisellerError(f"seller-sells: {data}")
+DigisellerError: seller-sells: {'retval': 10, 'retdesc': 'sign', 'total_rows': 0, 'pages': 0, 'page': 0, 'rows': []}
+2026-11-07 12:28:58,338 INFO Получен сигнал остановки, завершаюсь после текущего цикла
+2026-11-07 12:29:19,797 INFO Получен сигнал остановки, завершаюсь после текущего цикла
+2026-11-07 12:29:51,392 INFO Остановлено
+2026-11-07 12:49:36,247 INFO Мост запущен. Товаров в маппинге: 4, интервал опроса: 60 c
+2026-11-07 12:49:36,250 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 12:49:51,104 INFO Получен сигнал остановки, завершаюсь после текущего цикла
+2026-11-07 12:50:36,270 INFO Остановлено
+2026-11-07 12:50:36,874 INFO Мост запущен. Товаров в маппинге: 4, интервал опроса: 60 c
+2026-11-07 12:50:36,876 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 12:51:36,880 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 12:52:36,884 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 12:53:36,898 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 12:54:36,910 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 12:55:38,778 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 12:56:38,791 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 12:57:38,797 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 12:58:45,622 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 12:59:48,665 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:00:48,729 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:01:48,760 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:18:09,128 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:19:20,905 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:20:20,988 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:21:20,996 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:22:30,534 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:23:30,557 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:24:30,565 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:25:50,700 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:27:38,908 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:35:27,016 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:36:18,915 INFO Мост запущен. Товаров в маппинге: 4, интервал опроса: 60 c
+2026-11-07 13:36:18,916 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:36:27,034 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:36:33,693 INFO Получен сигнал остановки, завершаюсь после текущего цикла
+2026-11-07 13:37:23,794 INFO Остановлено
+2026-11-07 13:37:27,042 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:38:27,053 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:39:27,072 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
+2026-11-07 13:40:28,124 ERROR Ошибка в основном цикле
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 563, in run
+    poll_sales_cycle()
+    ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 505, in poll_sales_cycle
+    rows = seller_sells(fmt(start - 300), fmt(now), page=page, rows=500)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in seller_sells
+    ids = sorted(int(pid) for pid in MAPPING)
+  File "/data/data/com.termux/files/home/bridge/bridge.py", line 224, in <genexpr>
+    ids = sorted(int(pid) for pid in MAPPING)
+                 ~~~^^^^^
+ValueError: invalid literal for int() with base 10: 'GGSEL_ID_12345'
