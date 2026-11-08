@@ -12,7 +12,7 @@ def obrabotat_zakaz(order_id):
         return "пропущено"
 
     # Шаг 2: заглушка вместо покупки на Fazercards
-    kod = "TEST-CODE-" + order_id
+    kod = "TEST-CODE-1234"
 
     # Шаг 3: заглушка вместо выдачи на Ggsel
     zapisat_v_log("Заказ " + order_id + " выдан, код скрыт")
@@ -24,4 +24,4 @@ def obrabotat_zakaz(order_id):
 
 # Проверка: пробуем выдать один и тот же заказ дважды
 print(obrabotat_zakaz("001"))
-print(obrabotat_zakaz("002"))
+print(obrabotat_zakaz("001"))
